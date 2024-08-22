@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/19a76af2e7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-manrope">
+    <header class=" py-5 ">
+    <nav class="flex mx-auto md:container overflow-hidden">
+          <div class="flex-1">
+  
+            <a class="font-bold text-3xl">Rinterio</a>
+          </div>
+          <div class=" hidden lg:flex text-center">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="flex gap-7 hidden lg:flex ">
+            <button class="btn btn-circle">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="btn btn-circle">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button class="btn font-bold bg-[#ABEF5F]">
+                <span>Book Consult</span>
+                <span><i class="fa-solid fa-location-arrow"></i></span>
+            </button>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+      </nav>   
+      <div>
+        <div class="flex flex-col items-center">
+            <img class="w-[300px] lg:w-[500px]" src="/images/banner.png" alt="">
+            <h1 class="font-bold flex justify-center text-3xl lg:text-5xl text-wrap text-center ">A barn house of this design  has  a  striking appearance</h1>
+            <p class="flex justify-center py-5 text-wrap text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered <br> wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="btn font-bold bg-[#ABEF5F] helperbird-reading-alignment-left">
+                <span class="helperbird-reading-alignment-left">View Details</span>
+                <span class="helperbird-reading-alignment-left"><i class="fa-solid fa-location-arrow helperbird-reading-alignment-left" aria-hidden="true"></i></span>
+            </button>
+        </div>
+      </div>
+    </header>
+    <main>
+        <section>
+        </section>
+    </main>
+</body>
+</html>
